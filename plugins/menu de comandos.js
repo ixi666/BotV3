@@ -17,8 +17,8 @@ let menu =`
 ╭══〘        
    *𝐓𝐡𝐞 Ixxi - 𝐁𝐨𝐭*
 
- *𝗛ola, ${username}!!*
-      ≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+ *𝗛ola, ${username}!*
+    
   *Creador del Bot: Ixxi - Ares*
   *Numero del Bot oficial:* *wa.me/525583274312*
                          
@@ -30,13 +30,8 @@ let menu =`
  _${usedPrefix}topput@s_
  _${usedPrefix}toppajer@s_
  _${usedPrefix}topotakus_
-
  
- *<NUMERO DE MI CREADOR/>*
-_${usedPrefix}owner_
-
-
- *<DESCARGAS/>*
+ *DESCARGAS*
 _${usedPrefix}imagen *texto*_
 _${usedPrefix}ytsearch *texto*_
 _${usedPrefix}dlaudio *link yt*_
@@ -49,7 +44,7 @@ _${usedPrefix}play *titulo del audio*_
 _${usedPrefix}play3 *titulo del audio/video*_
 _${usedPrefix}play4 *titulo del video*_
 
-*SOLO ADMINS NO INUTILES* 
+*SOLO ADMINS, NO INUTILES* 
  _${usedPrefix}admins *texto*_ 
  _${usedPrefix}añadir *numero*_ 
  _${usedPrefix}sacar @tag_
@@ -77,15 +72,11 @@ _${usedPrefix}play4 *titulo del video*_
  _${usedPrefix}fantasmas_
  _${usedPrefix}banchat_
  _${usedPrefix}unbanchat_
-
- *CREADOR DE STICKER*
-_${usedPrefix}s_
-_${usedPrefix}sticker_
-
+ 
   *pornito*
  _${usedPrefix}labiblia_
 
-  Responde a un audio o nota de voz
+  *Responde a un audio o nota de voz*
  _${usedPrefix}bass_
  _${usedPrefix}deep_
  _${usedPrefix}earrape_
