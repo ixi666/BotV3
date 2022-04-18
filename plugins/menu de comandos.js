@@ -14,16 +14,15 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
-╭══〘          ✯       〙═╮
+╭══〘        
    *𝐓𝐡𝐞 Ixxi - 𝐁𝐨𝐭*
 
- *✨𝗛ola, ${username}!!*
+ *𝗛ola, ${username}!!*
       ≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-  *Creador del Bot: Ixxi - Ares* 
-  *Numero del creador:* *wa.me/16042452851 (No Bot)*
+  *Creador del Bot: Ixxi - Ares*
   *Numero del Bot oficial:* *wa.me/525583274312*
                          
-╰══╡           ✯         ╞══╯
+╰══╡          
 
   *Para Gays*
  _${usedPrefix}top10gays_
@@ -33,7 +32,7 @@ let menu =`
  _${usedPrefix}topotakus_
 
  
-┃ *<NUMERO DE MI CREADOR/>*
+ *<NUMERO DE MI CREADOR/>*
 _${usedPrefix}owner_
 
 
@@ -79,7 +78,6 @@ _${usedPrefix}play4 *titulo del video*_
  _${usedPrefix}banchat_
  _${usedPrefix}unbanchat_
 
-
  *CREADOR DE STICKER*
 _${usedPrefix}s_
 _${usedPrefix}sticker_
@@ -87,9 +85,7 @@ _${usedPrefix}sticker_
   *pornito*
  _${usedPrefix}labiblia_
 
-
-
- Responde a un audio o nota de voz
+  Responde a un audio o nota de voz
  _${usedPrefix}bass_
  _${usedPrefix}deep_
  _${usedPrefix}earrape_
@@ -102,8 +98,7 @@ _${usedPrefix}sticker_
  _${usedPrefix}smooth_
  _${usedPrefix}vibracion *cantidad*_
 
-
- *SOLO PARA DIOSES*
+  *SOLO PARA DIOSES*
  _${usedPrefix}boost_
  _${usedPrefix}restart_
  _${usedPrefix}banlist_
