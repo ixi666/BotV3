@@ -14,24 +14,26 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
-╭══〘        
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄       
    *𝐓𝐡𝐞 Ixxi - 𝐁𝐨𝐭*
-
+╭──────────────╮
  *𝗛ola, ${username}!*
     
   *Creador del Bot: Ixxi - Ares*
   *Numero del Bot oficial:* *wa.me/525583274312*
-                         
-╰══╡          
-
-  *Para Gays*
+ ╰──────────────╯                        
+          
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+ ✰ *Para Gays*
+ ╰──────────────╯
  _${usedPrefix}top10gays_
  _${usedPrefix}toplind@s_
  _${usedPrefix}topput@s_
  _${usedPrefix}toppajer@s_
  _${usedPrefix}topotakus_
- 
- *DESCARGAS*
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ 
+ ✰*DESCARGAS*
+ ╰──────────────╯
 _${usedPrefix}imagen *texto*_
 _${usedPrefix}ytsearch *texto*_
 _${usedPrefix}dlaudio *link yt*_
@@ -43,8 +45,9 @@ _${usedPrefix}play *titulo del audio*_
  _${usedPrefix}play2 *titulo del video*_
 _${usedPrefix}play3 *titulo del audio/video*_
 _${usedPrefix}play4 *titulo del video*_
-
-*SOLO ADMINS, NO INUTILES* 
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+ ✰*SOLO ADMINS, NO INUTILES*
+ ╰──────────────╯
  _${usedPrefix}admins *texto*_ 
  _${usedPrefix}añadir *numero*_ 
  _${usedPrefix}sacar @tag_
@@ -72,11 +75,13 @@ _${usedPrefix}play4 *titulo del video*_
  _${usedPrefix}fantasmas_
  _${usedPrefix}banchat_
  _${usedPrefix}unbanchat_
- 
-  *pornito*
+ ▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+ ✰ *pornito*
+ ╰──────────────╯
  _${usedPrefix}labiblia_
-
-  *Responde a un audio o nota de voz*
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+  ✰*Responde a un audio o nota de voz*
+  ╰──────────────╯
  _${usedPrefix}bass_
  _${usedPrefix}deep_
  _${usedPrefix}earrape_
@@ -88,8 +93,9 @@ _${usedPrefix}play4 *titulo del video*_
  _${usedPrefix}slow_
  _${usedPrefix}smooth_
  _${usedPrefix}vibracion *cantidad*_
-
-  *SOLO PARA DIOSES*
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+  ✰*SOLO PARA DIOSES*
+  ╰──────────────╯
  _${usedPrefix}boost_
  _${usedPrefix}restart_
  _${usedPrefix}banlist_
@@ -121,7 +127,7 @@ _${usedPrefix}play4 *titulo del video*_
  _${usedPrefix}setwelcome *@tag*_
  _${usedPrefix}enable *autoread*_
  _${usedPrefix}disable *autoread*_
-┗━━`.trim()
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄`.trim()
 let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, '©The Ixxi - Bot', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
