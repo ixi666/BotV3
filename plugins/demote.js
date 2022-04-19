@@ -21,7 +21,7 @@ try {
 } catch (e) {
 		} finally {
 			conn.groupDemoteAdmin(m.chat, [user]).catch(console.log)
-			conn.reply(m.chat, `*[ ✅ ] ÓRDENES RECIBIDAS*`, m)
+			conn.reply(m.chat, `*[ ✅ ] YA NO ERES ADMIN CHANGO*`, m)
 	}	
 }
 handler.help = ['*593xxx*','*@usuario*','*responder chat*'].map(v => 'demote ' + v)
