@@ -34,27 +34,27 @@ let menu =`
 ▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ 
  ✰*DESCARGAS*
  ╰──────────────╯
-_${usedPrefix}imagen *texto*_
-_${usedPrefix}ytsearch *texto*_
-_${usedPrefix}dlaudio *link yt*_
-_${usedPrefix}dlvid *link yt*_
-_${usedPrefix}ytmp3 *link yt*_
-_${usedPrefix}ytmp4 *link yt*_
-_${usedPrefix}ytmp4.2 *link yt*_
-_${usedPrefix}play *titulo del audio*_
- _${usedPrefix}play2 *titulo del video*_
-_${usedPrefix}play3 *titulo del audio/video*_
-_${usedPrefix}play4 *titulo del video*_
+_${usedPrefix}imagen 
+_${usedPrefix}ytsearch
+_${usedPrefix}dlaudio 
+_${usedPrefix}dlvid 
+_${usedPrefix}ytmp3 
+_${usedPrefix}ytmp4 
+_${usedPrefix}ytmp4.2 
+_${usedPrefix}play
+ _${usedPrefix}play2 
+_${usedPrefix}play3 
+_${usedPrefix}play4 
 ▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
  ✰*SOLO ADMINS, NO INUTILES*
      ╰──────────────╯
- _${usedPrefix}admins *texto*_ 
- _${usedPrefix}añadir *numero*_ 
- _${usedPrefix}sacar @tag_
- _${usedPrefix}save *@tag + nombre de contacto*_
- _${usedPrefix}daradmin *@tag*_
- _${usedPrefix}quitaradmin *@tag*_
- _${usedPrefix}grupo *abrir / cerrar*_
+ _${usedPrefix}admins
+ _${usedPrefix}añadir 
+ _${usedPrefix}sacar 
+ _${usedPrefix}save 
+ _${usedPrefix}daradmin 
+ _${usedPrefix}quitaradmin
+ _${usedPrefix}grupo 
  _${usedPrefix}enable nsfw_
  _${usedPrefix}disable nsfw_
  _${usedPrefix}enable welcome_
