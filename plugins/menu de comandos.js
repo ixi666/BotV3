@@ -17,7 +17,7 @@ let menu =`
 ▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄       
    *𝐓𝐡𝐞 Ixxi - 𝐁𝐨𝐭*
   ╭──────────────╮
- *𝗛ola, ${username}! GAY*
+ *𝗛ola, ${username}!*
   *Creador del Bot: Ixxi - Ares*
   *Numero del Bot oficial:* *wa.me/525583274312*
   ╰──────────────╯                        
@@ -70,7 +70,7 @@ _${usedPrefix}play4
  _${usedPrefix}setdesc *Nueva descripción del grupo*_
  _${usedPrefix}infogrupo_
  _${usedPrefix}invocar *texto*_
- _${usedPrefix}del *responder a un mensaje del bot*_
+ _${usedPrefix}del 
  _${usedPrefix}fantasmas_
  _${usedPrefix}banchat_
  _${usedPrefix}unbanchat_
