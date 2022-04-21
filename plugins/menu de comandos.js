@@ -66,8 +66,6 @@ _${usedPrefix}play4
  _${usedPrefix}disable  delete_ 
  _${usedPrefix}link_
  _${usedPrefix}notificar *texto*_
- _${usedPrefix}setname *Nuevo nombre del grupo*_
- _${usedPrefix}setdesc *Nueva descripción del grupo*_
  _${usedPrefix}infogrupo_
  _${usedPrefix}invocar *texto*_
  _${usedPrefix}del 
