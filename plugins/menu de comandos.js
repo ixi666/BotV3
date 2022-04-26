@@ -48,8 +48,8 @@ _${usedPrefix}play4
  ✰*SOLO ADMINS, NO INUTILES*
      ╰──────────────╯
  _${usedPrefix}admins
- _${usedPrefix}añadir 
- _${usedPrefix}sacar 
+ _${usedPrefix}add 
+ _${usedPrefix}kick 
  _${usedPrefix}save 
  _${usedPrefix}daradmin 
  _${usedPrefix}quitaradmin
