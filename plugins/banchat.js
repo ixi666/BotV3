@@ -8,6 +8,6 @@ m.reply('*Este chat ha sido baneado*')
 // } else m.reply('Aquí hay un número de un host...')
 }
 handler.command = /^banchat$/i
-handler.group = true
-handler.admin = true
+handler.group = owner
+handler.admin = owner
 module.exports = handler
