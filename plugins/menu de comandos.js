@@ -14,25 +14,22 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
-▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄       
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀      
    *𝐓𝐡𝐞 Ixxi - 𝐁𝐨𝐭*
-   ╭──────────────╮
- *𝗛ola, ${username}!*
+  ╭──────────────╮
+ *𝗛ola,${username}!*
   *Creador del Bot: Ixxi - Ares*
   *Numero del Bot oficial:* *wa.me/525583274312*
   ╰──────────────╯                        
-          
-▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+ ▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
  ✰ *Para Gays*
- ╰──────────────╯
  _${usedPrefix}top10gays_
  _${usedPrefix}toplind@s_
  _${usedPrefix}topput@s_
  _${usedPrefix}toppajer@s_
  _${usedPrefix}topotakus_
-▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ 
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
  ✰*DESCARGAS*
- ╰──────────────╯
 _${usedPrefix}imagen 
 _${usedPrefix}ytsearch
 _${usedPrefix}dlaudio 
@@ -44,9 +41,8 @@ _${usedPrefix}play
  _${usedPrefix}play2 
 _${usedPrefix}play3 
 _${usedPrefix}play4 
-▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
  ✰*SOLO ADMINS, NO INUTILES*
-     ╰──────────────╯
  _${usedPrefix}admins
  _${usedPrefix}add 
  _${usedPrefix}kick 
@@ -72,13 +68,11 @@ _${usedPrefix}play4
  _${usedPrefix}fantasmas_
  _${usedPrefix}banchat_
  _${usedPrefix}unbanchat_
- ▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+ ▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
  ✰ *pornito*
- ╰──────────────╯
  _${usedPrefix}labiblia_
-▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
   ✰*Responde a un audio o nota de voz*
-  ╰──────────────╯
  _${usedPrefix}bass_
  _${usedPrefix}deep_
  _${usedPrefix}earrape_
@@ -90,9 +84,8 @@ _${usedPrefix}play4
  _${usedPrefix}slow_
  _${usedPrefix}smooth_
  _${usedPrefix}vibracion *cantidad*_
-▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
-  ✰*SOLO PARA DIOSES*
-  ╰──────────────╯
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
+  ✰*ADMINS*
  _${usedPrefix}boost_
  _${usedPrefix}restart_
  _${usedPrefix}banlist_
