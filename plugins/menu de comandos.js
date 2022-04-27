@@ -119,7 +119,7 @@ _${usedPrefix}play4
  _${usedPrefix}disable *autoread*_
 ▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄`.trim()
 let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '©The Ixxi - Bot', m, false, { contextInfo: { mentionedJid }})   
+conn.send3ButtonImg(m.chat, pp, menu, 'ixxi - Bot', '', ``, '', ``, '', ``, m, false, { contextInfo: { mentionedJid }})  
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true 
