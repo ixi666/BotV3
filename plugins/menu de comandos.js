@@ -14,21 +14,21 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
-▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀      
+▋▀▄▀▄▀▄▀▄▀▄▀▄      
    *𝐓𝐡𝐞 Ixxi - 𝐁𝐨𝐭*
   ╭─────────
  *𝗛ola,${username}!*
   *Creador del Bot: Ixxi - Ares*
   *Numero del Bot oficial:* *wa.me/525583274312*
   ╰──────────                        
- ▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
+ ▋▀▄▀▄▀▄▀▄▀▄▀
  ✰ *Para Gays*
  _${usedPrefix}top10gays_
  _${usedPrefix}toplind@s_
  _${usedPrefix}topput@s_
  _${usedPrefix}toppajer@s_
  _${usedPrefix}topotakus_
-▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
+▋▀▄▀▄▀▄▀▄▀▄▀▄
  ✰*DESCARGAS*
 _${usedPrefix}imagen 
 _${usedPrefix}ytsearch
@@ -41,7 +41,7 @@ _${usedPrefix}play
  _${usedPrefix}play2 
 _${usedPrefix}play3 
 _${usedPrefix}play4 
-▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
+▋▀▄▀▄▀▄▀▄▀▄▀▄
  ✰*SOLO ADMINS, NO INUTILES*
  _${usedPrefix}admins
  _${usedPrefix}add 
@@ -68,10 +68,10 @@ _${usedPrefix}play4
  _${usedPrefix}fantasmas_
  _${usedPrefix}banchat_
  _${usedPrefix}unbanchat_
- ▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
+ ▋▀▄▀▄▀▄▀▄▀
  ✰ *pornito*
  _${usedPrefix}labiblia_
-▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀
   ✰*Responde a un audio o nota de voz*
  _${usedPrefix}bass_
  _${usedPrefix}deep_
@@ -84,7 +84,7 @@ _${usedPrefix}play4
  _${usedPrefix}slow_
  _${usedPrefix}smooth_
  _${usedPrefix}vibracion *cantidad*_
-▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄
   ✰*ADMINS*
  _${usedPrefix}boost_
  _${usedPrefix}restart_
@@ -117,7 +117,7 @@ _${usedPrefix}play4
  _${usedPrefix}setwelcome *@tag*_
  _${usedPrefix}enable *autoread*_
  _${usedPrefix}disable *autoread*_
-▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄`.trim()
+▋▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄`.trim()
 let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, '@Ixxi - Bot', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})  
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
