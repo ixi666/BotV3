@@ -19,7 +19,7 @@ let menu =`
   ╭─────────
   𝗛ola,${username}
   Creador del Bot: Ixxi - Ares
-  Numero del Bot oficial:* *wa.me/525583274312
+  Numero del Bot oficial:wa.me/525583274312
   ╰──────────                        
  ▋▀▄▀▄▀▄▀▄▀▄▀
  ✰ Para Gays
