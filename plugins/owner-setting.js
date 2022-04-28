@@ -12,7 +12,7 @@ if (isDelete) conn.modifyChat(id, 'delete', {
 includeStarred: false
 }).catch(console.log)
 conn.modifyChat(id, 'mute', -Math.floor(new Date / 1e3) * 1e3 - 1e3).catch(console.log)}
-conn.reply(m.chat, '*Terminado y realizado con éxito ✅*', m, false, { contextInfo: { mentionedJid }})
+conn.reply(m.chat, '*Terminado*', m, false, { contextInfo: { mentionedJid }})
 }
 handler.help = ['deletechat', 'deletechat chat', 'deletechat group', 'deletechat all', 'mutechat', 'mutechat chat', 'mutechat group', 'mutechat all']
 handler.command = /^(clear|delete|mute)chat$/i
