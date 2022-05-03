@@ -3,7 +3,7 @@ global.linkGC = ['https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ' , 'https://c
 global.channelYT = ['https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA'] // No tiene utilidad
 global.owner = ['50246636573'] //Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
 global.mods = ['5219991402134'] //No tiene utilidad
-global.prems = ['50246636573' , '15866666578'] //Podra usar algunos comandos del apartado de propietario
+global.prems = ['50246636573' , '48699556091'] //Podra usar algunos comandos del apartado de propietario
 
 
 global.APIs = { // API Prefix
